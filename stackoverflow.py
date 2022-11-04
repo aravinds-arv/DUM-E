@@ -1,7 +1,8 @@
 import os
-import dotenv
+from dotenv import load_dotenv
 from stackapi import StackAPI
 
+load_dotenv()
 API_KEY = os.getenv("STACK_API_KEY")
 
 site = StackAPI("stackoverflow", key=API_KEY)

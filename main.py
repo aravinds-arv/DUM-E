@@ -15,7 +15,7 @@ client = commands.Bot(command_prefix="!", intents=intents)
 
 tech_news_channel_id = 1007960327520014446
 
-@tasks.loop(minutes=2.0, reconnect=True)
+@tasks.loop(minutes=30.0, reconnect=True)
 async def post_tech_news():
     tech_news_channel = client.get_channel(tech_news_channel_id)
     r = requests.get("https://dev.to/api/articles?page=1&per_page=3&top=7%22")
