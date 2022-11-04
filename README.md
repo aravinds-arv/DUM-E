@@ -15,7 +15,7 @@ If you're a developer and use discord as your primary medium of communication, y
 ![Screenshot 2022-11-04 182556](https://user-images.githubusercontent.com/78845005/199977674-7b717b81-6372-4f0d-ba6f-4e37616caa58.png)
 - It delivers all the latest tech news from dev.to at specified intervals of time.
 
-![Screenshot 2022-11-04 181954](https://user-images.githubusercontent.com/78845005/199977706-33c94b23-bda6-419b-8150-0fc05533765a.png)
+![Screenshot 2022-11-04 182053](https://user-images.githubusercontent.com/78845005/199988495-e3cd0e7b-34a1-4176-a2f2-ab6f4ffec9ff.png)
 - It picks yours query, places it on stackoverflow and returns all relevant answers directly to your server. The spell: `!sso "<YOUR QUERY>"`
 
 ![Screenshot 2022-11-04 181954](https://user-images.githubusercontent.com/78845005/199977777-9ffbe599-b491-489d-a422-8b542387aa88.png)
