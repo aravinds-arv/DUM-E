@@ -8,9 +8,17 @@ Just a rather very dumb [hydraulic arm](https://marvelcinematicuniverse.fandom.c
 If you're a developer and use discord as your primary medium of communication, you must've realized how tiring and lethargic it feels to switch to your browser window and search for the bug 🐛 that you just hit while sharing your screen to your clients/project manager. Fear not for DUM-E has arrived to give you a helping hand (or more precisely a hydraulic arm 🦾). DUM-E reduces manual effort and increases developer productivity (factor: 20x) in the following ways:-
 
 - It says `pong` when you say `!ping` signalling that it's up and running
+
+![Screenshot 2022-11-04 181905](https://user-images.githubusercontent.com/78845005/199977325-602cec7e-fdb3-4897-99d6-a652172af70b.png)
 - It motivates you when you feel low about your unresolved bugs. Just ask him to `!inspire`
+
+![Screenshot 2022-11-04 182556](https://user-images.githubusercontent.com/78845005/199977674-7b717b81-6372-4f0d-ba6f-4e37616caa58.png)
 - It delivers all the latest tech news from dev.to at specified intervals of time.
+
+![Screenshot 2022-11-04 181954](https://user-images.githubusercontent.com/78845005/199977706-33c94b23-bda6-419b-8150-0fc05533765a.png)
 - It picks yours query, places it on stackoverflow and returns all relevant answers directly to your server. The spell: `!sso "<YOUR QUERY>"`
+
+![Screenshot 2022-11-04 181954](https://user-images.githubusercontent.com/78845005/199977777-9ffbe599-b491-489d-a422-8b542387aa88.png)
 
 ### How to configure?
 - Copy .env.sample to a new file .env and replace the placeholder with your bot token
@@ -52,6 +60,19 @@ async def ping(ctx):
 
 client.run(TOKEN)
 ```
+
+### A checklist of things to be done in the [developer portal](https://discord.com/developers)
+- Create a new application
+- Add a bot in the Bot tab
+- Click on reset token and copy the token (use responsibly, if exposed your bot could be misused)
+- Click on `OAuth`>`URL Generator` and check the option `bot` under `scopes`
+- Give your required permissions
+
+
+- Copy the generated URL and paste in a new browser tab
+- Invite your bot to any of your servers
+
+![Screenshot 2022-11-04 18411511](https://user-images.githubusercontent.com/78845005/199980640-ef2b2339-11c9-4000-953e-1109a42a4f63.png)
 
 ### Resources to get started with discord.py
 - [Discord API Docs](https://discord.com/developers/docs/intro)
